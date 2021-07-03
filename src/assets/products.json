@@ -1,0 +1,74 @@
+[
+    {
+        "id":1234,
+        "title": "Denim Shirt",
+        "img":"https://rukminim1.flixcart.com/image/533/640/kp5sya80/shirt/1/q/i/40-pcsfsslpb19683-peter-england-original-imag3g58jdhud9zz.jpeg?q=50",
+        "attributes": {
+            "type":"shirt",
+            "sizesAvailable": ["S","M","XL"],
+            "brand": "Armani",
+            "for": "men",
+            "price": 2999
+        }
+    },
+    {
+        "id":1235,
+        "title": "Slim Denim Jeans",
+        "img":"https://rukminim1.flixcart.com/image/533/640/jh6l2fk0/jean/4/a/z/32-lj183a-lzard-original-imaf58839pkyfzke.jpeg?q=50",
+        "attributes": {
+            "type":"pant",
+            "sizesAvailable": ["S","M","XL"],
+            "brand": "L&P",
+            "for": "men",
+            "price": 199
+        }
+    },
+    {
+        "id":1236,
+        "title": "Stripped men Hudded Shirt",
+        "img":"https://rukminim1.flixcart.com/image/533/640/kf1fo280hlty2aw-0/t-shirt/w/s/e/-original-imafdfvvr8hqdu65.jpeg?q=50",
+        "attributes": {
+            "type":"shirt",
+            "sizesAvailable": ["S","M","XL"],
+            "brand": "Levis",
+            "for": "men",
+            "price": 299
+        }
+    },
+    {
+        "id":1237,
+        "title": "Women's Solid plated green Shirt",
+        "img":"https://rukminim1.flixcart.com/image/533/640/kd3f3bk0/skirt/j/2/c/xs-ulss19bt09-19-065-uptownie-lite-original-imafu3ywz7v5jd39.jpeg?q=50",
+        "attributes": {
+            "type":"shirt",
+            "sizesAvailable": ["X","XL"],
+            "brand": "Levis",
+            "for": "women",
+            "price": 2999
+        }
+    },
+    {
+        "id":12365,
+        "title": "Women Printed Blue Skirt",
+        "img":"https://rukminim1.flixcart.com/image/533/640/kfu0h3k0/skirt/w/y/q/xl-nf0093skirt-nypa-original-imafw76gfv5hvzbg.jpeg?q=50",
+        "attributes": {
+            "type":"pant",
+            "sizesAvailable": ["S","XL"],
+            "brand": "Wills",
+            "for": "women",
+            "price": 3999
+        }
+    },
+    {
+        "id":124436,
+        "title": "Women printed floral Yellow Skirt",
+        "img":"https://rukminim1.flixcart.com/image/533/640/ko8xtow0/skirt/n/t/c/xs-ulss19bt09-19-722-uptownie-lite-original-imag2qzvheq9thsr.jpeg?q=50",
+        "attributes": {
+            "type":"shirt",
+            "sizesAvailable": ["S","M"],
+            "brand": "H&M",
+            "for": "women",
+            "price": 2459
+        }
+    }
+]
