@@ -1,4 +1,4 @@
-export const products = [
+[
     {
         "id":1234,
         "title": "Denim Shirt",
@@ -17,7 +17,7 @@ export const products = [
         "img":"https://rukminim1.flixcart.com/image/533/640/jh6l2fk0/jean/4/a/z/32-lj183a-lzard-original-imaf58839pkyfzke.jpeg?q=50",
         "attributes": {
             "type":"pant",
-            "sizesAvailable": ["S","M","XL"],
+            "sizesAvailable": ["M","XL"],
             "brand": "L&P",
             "for": "men",
             "price": 199
@@ -29,7 +29,7 @@ export const products = [
         "img":"https://rukminim1.flixcart.com/image/533/640/kf1fo280hlty2aw-0/t-shirt/w/s/e/-original-imafdfvvr8hqdu65.jpeg?q=50",
         "attributes": {
             "type":"shirt",
-            "sizesAvailable": ["S","M","XL"],
+            "sizesAvailable": ["S","M","L"],
             "brand": "Levis",
             "for": "men",
             "price": 299
@@ -41,7 +41,7 @@ export const products = [
         "img":"https://rukminim1.flixcart.com/image/533/640/kd3f3bk0/skirt/j/2/c/xs-ulss19bt09-19-065-uptownie-lite-original-imafu3ywz7v5jd39.jpeg?q=50",
         "attributes": {
             "type":"shirt",
-            "sizesAvailable": ["X","XL"],
+            "sizesAvailable": ["L","XL"],
             "brand": "Levis",
             "for": "women",
             "price": 2999
@@ -71,33 +71,4 @@ export const products = [
             "price": 2459
         }
     }
-];
-
-export const brands = [
-    {
-        name: "Levis",
-        seleted:false,
-        idealFor: ["men","women"]
-    },
-    {
-        name: "Armani",
-        seleted:false,
-        idealFor: ["men"]
-    },
-    {
-        name: "L&P",
-        seleted:false,
-        idealFor: ["men"]
-    },
-    {
-        name: "H&M",
-        seleted:false,
-        idealFor: ["women"]
-    },
-    {
-        name: "Wills",
-        seleted:false,
-        idealFor: ["women"]
-    }
-
 ]

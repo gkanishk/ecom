@@ -1,5 +1,5 @@
 import ProductsContainer from "../components/common/ProductContainer";
-import {products} from "../assets/products";
+import products from "../assets/products.json";
 import {useEffect,useState} from "react"
 
 function Home() {

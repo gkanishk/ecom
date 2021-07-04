@@ -10,6 +10,7 @@ function ProductsContainer({products}){
                           size+" "
                       ))}
                   </p>
+                  <span>Brand: {attributes.brand}</span><br/>
                   <span>Rs. {attributes?.price}</span>
                 </div>
             ))}

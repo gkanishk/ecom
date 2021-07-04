@@ -3,7 +3,8 @@ import {useEffect, useState} from "react";
 // Components
 import {ProductsContainer,FacetFilter} from "../components";
 // Assets
-import {products,brands} from "../assets/products";
+import products from "../assets/products.json";
+import brands from "../assets/brands.json";
 
 function Products() {
     const [filteredProducts,setFilteredProducts]=useState([]);
@@ -27,7 +28,6 @@ function Products() {
               <h1>Products({filteredProducts.length})</h1>
                 <ProductsContainer products={filteredProducts} brands={brands} />
               </div>
-
           </div>
       </section>
     );
