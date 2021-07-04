@@ -1,4 +1,4 @@
-[
+export const products = [
     {
         "id":1234,
         "title": "Denim Shirt",
@@ -71,4 +71,33 @@
             "price": 2459
         }
     }
+];
+
+export const brands = [
+    {
+        name: "Levis",
+        seleted:false,
+        idealFor: ["men","women"]
+    },
+    {
+        name: "Armani",
+        seleted:false,
+        idealFor: ["men"]
+    },
+    {
+        name: "L&P",
+        seleted:false,
+        idealFor: ["men"]
+    },
+    {
+        name: "H&M",
+        seleted:false,
+        idealFor: ["women"]
+    },
+    {
+        name: "Wills",
+        seleted:false,
+        idealFor: ["women"]
+    }
+
 ]

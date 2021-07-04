@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 // Components
 import {ProductsContainer,FacetFilter} from "../components";
 // Assets
-import products from "../assets/products.json";
+import {products,brands} from "../assets/products";
 
 function Products() {
     const [filteredProducts,setFilteredProducts]=useState([]);
@@ -25,7 +25,7 @@ function Products() {
               </div>
               <div className="text-center">
               <h1>Products({filteredProducts.length})</h1>
-                <ProductsContainer products={filteredProducts}/>
+                <ProductsContainer products={filteredProducts} brands={brands} />
               </div>
 
           </div>
